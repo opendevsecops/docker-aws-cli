@@ -6,7 +6,11 @@
 
 # Docker AWS CLI
 
-This is a docker container for the AWS CLI.
+This is a docker container for the AWS [CLI](https://aws.amazon.com/cli/).
+
+The container entry point is controlled by [launcher](https://github.com/opendevsecops/go-launcher) which provides additional features useful when used in cloud environments.
+
+> WARNING: due to recent changes in Docker Hub repo badges appear incorrectly
 
 ## Getting Started
 
